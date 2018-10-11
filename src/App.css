@@ -30,3 +30,105 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  margin: auto;
+  margin-top: 20px;
+  width:500px;
+  height: 700px;
+  border: #606770 solid 1px;
+  border-radius: 10px;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 2px;
+  margin: 5px;
+  float: left;
+  cursor: pointer;
+}
+
+.username{
+  float: left;
+  margin-left: 5px;
+  margin-top: 22px;
+  color: #365899;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status{
+  color: grey;
+  margin-left: 5px;
+  margin-top: 22px;
+  float: left;
+  cursor: text;
+}
+
+.postDuration{
+  margin-right:10px;
+  margin-top: 10px;
+  float: right;
+}
+
+.description{
+  margin-top: 55px;
+  margin-left: 10px;
+  cursor: text;
+}
+
+.photo{
+  width: inherit;
+  height: 450px;
+  cursor: pointer;
+}
+
+.reactions{
+  width: 40px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+}
+
+.peoples{
+  float: left;
+  margin-top: 10px;
+  color: #606770;
+  cursor: pointer;
+}
+
+.comments{
+  color: #606770;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.options{
+  width: inherit;
+  height: 50px;
+  border-top: 1px solid #606770;
+  border-bottom: 1px solid #606770;
+  margin-top: 40px;
+}
+
+.btnLike{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.btnComment{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+  margin-right: 110px;
+}
